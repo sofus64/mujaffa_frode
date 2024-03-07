@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#grid {
+    width: 831px;
+    height: 831px;
+    background-image: url(img/jordan-holbrook-rox.jpg);
+}
+/* #grid > div{
+    border: 1px solid white;
+} */
+
+.points{
+    font-style: bold;
+    font-weight: 900;
+}
+
+.startButton{
+    position: fixed;
+    left: 5%; 
+    top: 5%; 
+    width: 200px; 
+    height: 50px; 
+    background-color: orange;
+    font-style: bold;
+    font-weight: 900;
+}
+.startButton:active{
+    background-color: rgb(100, 95, 71);
+}
+.startButton:hover{
+    border: 4px solid black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
